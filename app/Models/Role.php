@@ -73,7 +73,6 @@ class Role extends Model
             return array();
         }
         $privilledges=explode(',', $ret['privilledges']);
-
         $priAll =  Privilledge::all()->toArray();
         $buff=array();
         foreach ($priAll as $key => $val) {
@@ -88,7 +87,7 @@ class Role extends Model
                     $data['item_name']="<span style=\"color:red;\">".$val['menuName']."</span>";
                 }
                 $data['item_val']=$val['id'];
-                $data['item_status']=in_array($val[id], $privilledges) ? 1: 0;
+                $data['item_status']=in_array($val['id'], $privilledges) ? 1: 0;
                 $buff[$val['pid']]['children'][]=$data;
             }
         }
