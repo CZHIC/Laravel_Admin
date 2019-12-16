@@ -90,7 +90,7 @@ $gameArr = array(0=>'全部',1=>'德州',2=>'牛牛',3=>'斗地主',4=>'水果�
             });
             json = json.substring(0,json.length-1);
             $.ajax({
-                url:'/index.php/admin/editAppid',
+                url:'/admin/editAppid',
                 type:'get',
                 data:{'act':'addRole', 'appid':json, 'id':rid, 'rolename':rname},
                 dataType:'json',

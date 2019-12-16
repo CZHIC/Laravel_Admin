@@ -76,7 +76,7 @@ function saveData(){
      if (json == '{') return alert('请配置角色权限！');
      json = json.substring(0,json.length-1);
     $.ajax({
-        url:'/index.php/admin/editPower',
+        url:'/admin/editPower',
         type:'get',
         data:{'act':'addRole', 'privill':json, 'id':rid, 'rolename':rname},
         dataType:'json',
@@ -134,7 +134,7 @@ function getList(data, rid){
     if (rid != 0) data.id = rid;
     var rname = $("#jse").val();
     $.ajax({
-        url:'/index.php/admin/editPower',
+        url:'/admin/editPower',
         type:'get',
         data:{act:data.act,'id':rid, 'rolename':rname},
         dataType:'json',

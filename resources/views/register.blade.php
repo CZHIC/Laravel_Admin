@@ -33,7 +33,7 @@
             </div>
             <h3>欢迎注册</h3>
             <p>创建一个新账户</p>
-            <form class="m-t" role="form" action="/index.php/doregister">
+            <form class="m-t" role="form" action="/doregister">
                 <div class="form-group">
                     <input type="text" class="form-control" placeholder="请输入用户名"  name = 'username' required="">
                 </div>
@@ -51,7 +51,7 @@
                 </div>
                 <button type="submit" class="btn btn-primary block full-width m-b">注 册</button>
 
-                <p class="text-muted text-center"><small>已经有账户了？</small><a href="/index.php/login">点此登录</a>
+                <p class="text-muted text-center"><small>已经有账户了？</small><a href="/login">点此登录</a>
                 </p>
                  <div><label style="color: red"><?php if(isset($error)) { ?><?=$error ?><?php } ?></label></p></div>
             </form>

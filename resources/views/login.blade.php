@@ -43,7 +43,7 @@
                         </div>
              </div>
 
-            <form class="m-t" role="form" action="/index.php/doLogin"  method="GET">
+            <form class="m-t" role="form" action="/doLogin"  method="GET">
                 <div class="form-group">
                     <input type="email" class="form-control" placeholder="用户名"   name='username'  required="">
                 </div>
@@ -53,8 +53,10 @@
                 <button type="submit" class="btn btn-primary block full-width m-b">登 录</button>
 
 
-                <p class="text-muted text-center"> <a href="/index.php/login#"><small>忘记密码了？</small></a> | <a href="/index.php/register">注册一个新账号</a>
+                <p class="text-muted text-center"> <a href="/login#"><small>忘记密码了？</small></a> | <a href="/register">注册一个新账号</a>
                 </p>
+
+                <div><label style="color: red">测试账号：admin@qq.com  密码：123456</label></p></div>
                  <div><label style="color: red"><?php if(isset($error)) { ?><?=$error ?><?php } ?></label></p></div>
             </form>
         </div>

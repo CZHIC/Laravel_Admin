@@ -35,12 +35,12 @@
                              </span>  <span class="text-muted text-xs block">管理员 <b class="caret"></b></span> </span>
                             </a>
                             <ul class="dropdown-menu animated fadeInRight m-t-xs">
-                                <li><a href="/index.php/admin/headUpload">修改头像</a>
+                                <li><a href="/admin/headUpload">修改头像</a>
                                 </li>
-                                <li><a href="/index.php/admin/contacts">联系我们</a>
+                                <li><a href="/admin/contacts">联系我们</a>
                                 </li>
                                 <li class="divider"></li>
-                                <li><a href="/index.php/login">安全退出</a>
+                                <li><a href="/login">安全退出</a>
                                 </li>
                             </ul>
                         </div>
@@ -75,7 +75,7 @@
                 <nav class="navbar navbar-static-top" role="navigation" style="margin-bottom: 0">
                     <div class="navbar-header">
                         <a class="navbar-minimalize minimalize-styl-2 btn btn-primary " href="#"><i class="fa fa-bars"></i> </a>
-                        <form role="search" class="navbar-form-custom" method="post" action="/index.php/admin/searchResults">
+                        <form role="search" class="navbar-form-custom" method="post" action="/admin/searchResults">
                             <div class="form-group">
                                 <input type="hidden" name="_token" value="{{ csrf_token() }}">
                                 <input type="text" placeholder="请输入您需要查找的内容 …" class="form-control" name="top-search" id="top-search">
@@ -88,7 +88,7 @@
                         </li>
                       
                         <li class="dropdown">
-                            <a class="dropdown-toggle count-info" data-toggle="dropdown" href="index.html#">
+                            <a class="dropdown-toggle count-info" data-toggle="dropdown" href="/login">
                                 <i class="fa fa-bell"></i>  <span class="label label-primary">8</span>
                             </a>
                             <ul class="dropdown-menu dropdown-alerts">
@@ -123,7 +123,7 @@
 
 
                         <li>
-                            <a href="login.html">
+                            <a href="/login">
                                 <i class="fa fa-sign-out"></i> 退出
                             </a>
                         </li>

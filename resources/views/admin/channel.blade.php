@@ -37,7 +37,7 @@
 
             // Configuration for jqGrid Example 2
             $("#table_list_2").jqGrid({
-                url:'/index.php/admin/getChannel?act=get',
+                url:'/admin/getChannel?act=get',
                 datatype: "json",
                 mtype : 'get',
                 height: 450,
@@ -116,7 +116,7 @@
                 hidegrid: false,
                 loadui : 'block',
                 index  : 'uid' , //设置索引字段
-                editurl : '/index.php/admin/getChannel' ,  // 定义对form编辑时的url
+                editurl : '/admin/getChannel' ,  // 定义对form编辑时的url
             });
 
             // Add selection

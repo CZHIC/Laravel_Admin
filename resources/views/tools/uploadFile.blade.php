@@ -23,7 +23,7 @@
                                 </div>
                             </div>
                             <div class="ibox-content">
-                                <form id="my-awesome-dropzone" class="dropzone" action="/index.php/tools/uploadfile">
+                                <form id="my-awesome-dropzone" class="dropzone" action="/tools/uploadfile">
                                     <div class="dropzone-previews"></div>
                                     <input type="hidden" name="_token" value="{{ csrf_token() }}">
                                     <button type="submit" class="btn btn-primary pull-right">提交</button>
@@ -48,7 +48,7 @@
 
         Dropzone.autoDiscover = false;
         $("#my-awesome-dropzone").dropzone({
-            url: "/index.php/tools/uploadfile", //必须填写
+            url: "/tools/uploadfile", //必须填写
             method:"post",  //也可用put
             paramName:"file", //默认为file
             maxFiles:10,//一次性上传的文件数量上限

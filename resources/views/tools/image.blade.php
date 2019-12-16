@@ -27,10 +27,10 @@
 
 			<div class="more">
 				<ul id="sb-examples">
-					<li id = 'title1'  ><a href="/index.php/tools/image?type=1"  "  >效果一</a></li>
-					<li id = 'title2'><a href="/index.php/tools/image?type=2" ">效果二</a></li>
-					<li id = 'title3'><a href="/index.php/tools/image?type=3" ">效果三</a></li>
-					<li id = 'title4'><a href="/index.php/tools/image?type=4" ">效果四</a></li>
+					<li id = 'title1'  ><a href="/tools/image?type=1"  "  >效果一</a></li>
+					<li id = 'title2'><a href="/tools/image?type=2" ">效果二</a></li>
+					<li id = 'title3'><a href="/tools/image?type=3" ">效果三</a></li>
+					<li id = 'title4'><a href="/tools/image?type=4" ">效果四</a></li>
 				</ul>
 				<input type = "hidden"  id = 'checktype' >
 			</div>

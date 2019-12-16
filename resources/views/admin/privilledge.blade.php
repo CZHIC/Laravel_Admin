@@ -62,7 +62,7 @@ jqGrid的主要特点为：
             var lastsel;
             // Configuration for jqGrid Example 2
             $("#table_list_2").jqGrid({
-                url:'/index.php/admin/getprivilledge?act=get',
+                url:'/admin/getprivilledge?act=get',
                 datatype: "json",
                 mtype : 'get',
                 height: 450,
@@ -191,7 +191,7 @@ jqGrid的主要特点为：
                 edittext: 'Edit',
                 hidegrid: false,
                 loadui : 'block',
-                editurl : '/index.php/admin/getprivilledge' ,  // 定义对form编辑时的url
+                editurl : '/admin/getprivilledge' ,  // 定义对form编辑时的url
             });
 
             // Add selection

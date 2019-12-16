@@ -55,7 +55,7 @@
                 // "processing": true,  每次都重新请求服务器数据
                 // "serverSide": true,
                 ajax: {
-                        url: '/index.php/stat/register?act=get',
+                        url: '/stat/register?act=get',
                         dataSrc: ''
                     },
 

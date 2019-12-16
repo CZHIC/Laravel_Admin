@@ -34,7 +34,7 @@
             var lastsel;
             // Configuration for jqGrid Example 2
             $("#table_list_2").jqGrid({
-                url:'/index.php/config/goods?act=get',
+                url:'/config/goods?act=get',
                 datatype: "json",
                 mtype : 'get',
                 toolbar : [ true, "top" ] , //增加工具栏
@@ -231,7 +231,7 @@
                 hidegrid: false,
                 loadui : 'block',
                 index  : 'uid' , //设置索引字段
-                editurl : '/index.php/config/goods' ,  // 定义对form编辑时的url
+                editurl : '/config/goods' ,  // 定义对form编辑时的url
             });
 
             // Setup buttons

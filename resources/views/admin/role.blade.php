@@ -71,7 +71,7 @@ jqGrid的主要特点为：
             var lastsel;
             // Configuration for jqGrid Example 2
             $("#table_list_2").jqGrid({
-                url:'/index.php/admin/getrole?act=get',
+                url:'/admin/getrole?act=get',
                 datatype: "json",
                 mtype : 'get',
                 height: 450,
@@ -153,7 +153,7 @@ jqGrid的主要特点为：
                 edittext: 'Edit',
                 hidegrid: false,
                 loadui : 'block',
-                editurl : '/index.php/admin/getrole' ,  // 定义对form编辑时的url
+                editurl : '/admin/getrole' ,  // 定义对form编辑时的url
             });
 
             // Add selection
@@ -189,7 +189,7 @@ jqGrid的主要特点为：
             border: [0],
             offset: ['20px',''],
             area: ['1000px', ($(window).height() - 50) +'px'],
-            iframe: {src: '/index.php/admin/editPower?id=' + id + '&name=' + name}
+            iframe: {src: '/admin/editPower?id=' + id + '&name=' + name}
         }); 
      }
 
@@ -204,7 +204,7 @@ jqGrid的主要特点为：
             border: [0],
             offset: ['20px',''],
             area: ['1000px', ($(window).height() - 50) +'px'],
-            iframe: {src: '/index.php/admin/editAppid?id=' + id + '&name=' + name}
+            iframe: {src: '/admin/editAppid?id=' + id + '&name=' + name}
         }); 
      }
 
